@@ -26,3 +26,4 @@ Feedbacks.propTypes = {
   options: PropTypes.arrayOf(PropTypes.string),
   onLeaveFeedback: PropTypes.func.isRequired,
 };
+ 
