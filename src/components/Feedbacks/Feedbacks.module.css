@@ -1,0 +1,21 @@
+.list {
+    padding: 0;
+}
+.item{
+    display: block;
+}
+.item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.button {
+    text-transform: capitalize;
+    padding: 5px 15px;
+    width: 100px;
+}
+
+.button:hover {
+    background-color:lightsteelblue;
+    border: 2px solid blue;
+    border-radius: 3px;
+}
